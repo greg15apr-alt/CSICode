@@ -1,0 +1,55 @@
+Zone "VST3i: Analog Lab V (Arturia)-1" "Page 2"
+     // --- Navigation ---
+     Cancel GoZone SelectedTrackFXMenu
+     BankLeft  GoSubZone "VST3i: Analog Lab V (Arturia)" "Analog Lab V"
+     Left      GoSubZone "VST3i: Analog Lab V (Arturia)" "Analog Lab V"
+
+     Fader1 FXParam 12 [ 0.00>1.00 (0.0) (0)  ]
+     RotaryPush1 NoAction
+     Rotary1 NoAction
+     DisplayUpper1 FixedTextDisplay "P1 Env 2 Attack" 12
+     DisplayLower1 FXParamValueDisplay 12
+
+     Fader2 FXParam 13 [ 0.00>1.00 (0.0) (0)  ]
+     RotaryPush2 NoAction
+     Rotary2 NoAction
+     DisplayUpper2 FixedTextDisplay "P1 Env 2 Decay" 13
+     DisplayLower2 FXParamValueDisplay 13
+
+     Fader3 FXParam 14 [ 0.00>1.00 (0.0) (0)  ]
+     RotaryPush3 NoAction
+     Rotary3 NoAction
+     DisplayUpper3 FixedTextDisplay "P1 Synth 1 VCA Attack" 14
+     DisplayLower3 FXParamValueDisplay 14
+
+     Fader4 FXParam 15 [ 0.00>1.00 (0.0) (0)  ]
+     RotaryPush4 NoAction
+     Rotary4 NoAction
+     DisplayUpper4 FixedTextDisplay "P1 Synth 1 VCA Release" 15
+     DisplayLower4 FXParamValueDisplay 15
+
+     Fader5 FXParam 16 [ 0.00>1.00 (0.0) (0)  ]
+     RotaryPush5 NoAction
+     Rotary5 NoAction
+     DisplayUpper5 FixedTextDisplay "P1 Sampler 2 Attack" 16
+     DisplayLower5 FXParamValueDisplay 16
+
+     Fader6 FXParam 17 [ 0.00>1.00 (0.0) (0)  ]
+     RotaryPush6 NoAction
+     Rotary6 NoAction
+     DisplayUpper6 FixedTextDisplay "P1 Sampler 2 Release" 17
+     DisplayLower6 FXParamValueDisplay 17
+
+     Fader7 FXParam 18 [ 0.00>1.00 (0.0) (0)  ]
+     RotaryPush7 NoAction
+     Rotary7 NoAction
+     DisplayUpper7 FixedTextDisplay "P1 Synth 2 VCA Attack" 18
+     DisplayLower7 FXParamValueDisplay 18
+
+     Fader8 FXParam 19 [ 0.00>1.00 (0.0) (0)  ]
+     RotaryPush8 NoAction
+     Rotary8 NoAction
+     DisplayUpper8 FixedTextDisplay "P1 Synth 2 VCA Release" 19
+     DisplayLower8 FXParamValueDisplay 19
+
+ZoneEnd
